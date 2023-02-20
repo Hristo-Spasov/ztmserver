@@ -35,7 +35,7 @@ app.use(cors())
 //* Server req and res
 
 app.get('/',(req,res) => {
-    res.send(database.users)
+    res.send('success')
 })
 
 //! LOGIN //
